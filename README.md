@@ -19,7 +19,7 @@ Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas gal
 4. Iškilus klausimams dėl užduoties formuluočių, pateikite klausimą `Github Issues` skiltyje ir mes kaip galima greičiau atsakysime.
 5. Pabaigus užduotį, atsiųskite savo Github repozitorijos adresą kartu su registracijos forma.
 
-**_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su ReactJS ar Angular. Mes netikrinsime su tuo susijusių 'gerųjų praktikų'. Tiesiog stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
+**_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su moderniais JavaScript karkasais. Mes netikrinsime su tuo susijusių 'gerųjų praktikų'. Tiesiog stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
 
 ## Dizainas
 
