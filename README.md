@@ -5,7 +5,7 @@ Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas gal
 ## Reikalavimai
 1. Dizainas turi būti kuo panašesnis į pateiktą žemiau. Pikselių nematuosime, tačiau į centravimą ir bendrą išdėstymą atsižvelgsime. Stilius turi būti parašytas tvarkingai, vengiant nereikalingų komandų. Galima naudoti modernius stiliaus įrankius kaip `PostCSS` ar `SASS`.
 2. Komponentas turi naudoti informaciją, gaunamą dinamiškai iš filmų duomenų API:
-   `GET: https://api.themoviedb.org/3/search/movie?api_key=cab2afe8b43cf5386e374c47aeef4fca&language=en-US&query=**{paieškos_tekstas}**`
+   `GET: https://api.themoviedb.org/3/search/movie?api_key=**{api_raktas}**&language=en-US&query=**{paieškos_tekstas}**`
 3. Pasirinkus vieną iš rezultatų, komponento įvesties tekstas turi atsinaujinti pagal pasirinkimą.
 4. Maksimalus rodomas dinaminės paieškos rezultatų kiekis - 8 filmų įrašai.
 5. Minimalus simbolių kiekis, aktyvuojantis dinaminę paiešką - 3. Jeigu ši sąlyga tenkinama, bet koks simbolio pakeitimas panaikina buvusius rezultatus ir iš naujo aktyvuoja dinaminę paiešką.
@@ -18,6 +18,16 @@ Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas gal
 3. Nenaudokite `NPM dependencies`, kurios padaro visą _autocomplete_ logiką už jus.
 4. Iškilus klausimams dėl užduoties formuluočių, pateikite klausimą `Github Issues` skiltyje ir mes kaip galima greičiau atsakysime.
 5. Pabaigus užduotį, atsiųskite savo Github repozitorijos adresą kartu su registracijos forma.
+
+### Kaip gauti `api_key` skirtą themoviedb api
+1. Einame į `https://www.themoviedb.org/`
+2. Užsiregistruojame
+3. Patvirtiname email'ą
+4. Prisijungiame
+5. Spaudžiame ant avataro, einame į `settings`
+6. Pasirenkame `API` sekciją
+7. Susikuriame `API key`, spaudžiame create ir užpildome reikiamą informaciją sekdami vedlį
+8. Gauname `api_key`
 
 **_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su moderniais JavaScript karkasais. Mes netikrinsime su tuo susijusių 'gerųjų praktikų'. Tiesiog stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
 
