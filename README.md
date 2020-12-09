@@ -2,7 +2,7 @@
 
 Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas galės pasirinkti kino filmą iš įvestos frazės atitikmenų. Paieškos komponentas turi bendrauti su filmų informacijos API.
 
-**_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su moderniais JavaScript karkasais. Mes netikrinsime su tuo susijusių 'gerųjų praktikų'. Tiesiog stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
+**_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su moderniais JavaScript karkasais. Stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
 
 
 ## Pradiniai reikalavimai
