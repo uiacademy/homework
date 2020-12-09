@@ -2,8 +2,17 @@
 
 Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas galės pasirinkti kino filmą iš įvestos frazės atitikmenų. Paieškos komponentas turi bendrauti su filmų informacijos API.
 
-## Reikalavimai
-1. Dizainas turi būti kuo panašesnis į pateiktą žemiau. Pikselių nematuosime, tačiau į centravimą ir bendrą išdėstymą atsižvelgsime. Stilius turi būti parašytas tvarkingai, vengiant nereikalingų komandų. Galima naudoti modernius stiliaus įrankius kaip `PostCSS` ar `SASS`.
+**_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su moderniais JavaScript karkasais. Mes netikrinsime su tuo susijusių 'gerųjų praktikų'. Tiesiog stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
+
+
+## Pradiniai reikalavimai
+1. Dizainą įgyvendinti kuo panašesnį į pateiktą žemiau. Pikselių nematuosime, tačiau į centravimą ir bendrą išdėstymą atsižvelgsime. 
+2. Stiliaus aprašus stenkitės išlaikyti tvarkingus, vengiant nereikalingų komandų. 
+3. Paieškos langas turi leisti įvesti paieškos tekstą ir pateikti galimus variantus ( gali būti ir be API pajungimo, tiesiog statiniai duomenys)
+
+
+## Papildomi reikalavimai
+1. Stilių aprašams naudoti modernius stiliaus įrankius kaip `PostCSS` ar `SASS`.
 2. Komponentas turi naudoti informaciją, gaunamą dinamiškai iš filmų duomenų API:
    `GET: https://api.themoviedb.org/3/search/movie?api_key=**{api_raktas}**&language=en-US&query=**{paieškos_tekstas}**`
 3. Pasirinkus vieną iš rezultatų, komponento įvesties tekstas turi atsinaujinti pagal pasirinkimą.
@@ -29,7 +38,7 @@ Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas gal
 7. Susikuriame `API key`, spaudžiame create ir užpildome reikiamą informaciją sekdami vedlį
 8. Gauname `api_key`
 
-**_Norint sėkmingai atlikti užduotį, nebūtina turėti patirties su moderniais JavaScript karkasais. Mes netikrinsime su tuo susijusių 'gerųjų praktikų'. Tiesiog stenkitės rašyti kuo paprastesnį ir aiškesnį kodą. Akademijos tikslas yra kartu išmokti geriausių programavimo praktikų, todėl nesidrovėkite atsiųsti bet kokios savo darbo versijos._**
+
 
 ## Dizainas
 
