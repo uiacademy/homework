@@ -23,7 +23,7 @@ Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas gal
 
 ## Instrukcijos
 1. Naudokite šią Github repozitoriją kaip pradinį užduoties tašką. Tai galite padaryti naudodami Github `Fork` funkciją.
-2. KAYAK UI Accademy paskaitų projekte naudosime `React.js`, todėl rekomenduojame užduotį atlikti naudojant šią technologiją, tačiau šiam namų darbui technologijos nėra ribojamos ir galima pasirinkti savo nuožiūra. Galite naudoti `create-react-app` ar `Angular CLI` ir kitus bibliotekų aplinkos generatorius.
+2. KAYAK WCC academy paskaitų projekte naudosime `React.js`, todėl rekomenduojame užduotį atlikti naudojant šią technologiją, tačiau šiam namų darbui technologijos nėra ribojamos ir galima pasirinkti savo nuožiūra. Galite naudoti `create-react-app` ar `Angular CLI` ir kitus bibliotekų aplinkos generatorius.
 3. Nenaudokite `NPM dependencies`, kurios padaro visą _autocomplete_ logiką už jus.
 4. Iškilus klausimams dėl užduoties formuluočių, pateikite klausimą `Github Issues` skiltyje ir mes kaip galima greičiau atsakysime.
 5. Pabaigus užduotį, atsiųskite savo Github repozitorijos adresą kartu su registracijos forma.
