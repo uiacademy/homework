@@ -1,0 +1,59 @@
+header {
+  height: 5.9375rem;
+  width: 100%;
+  position: absolute;
+  padding: 1.75rem;
+  background: -webkit-gradient(linear, left top, right top, from(#FA6A23), to(#E53C27));
+  background: linear-gradient(to right, #FA6A23, #E53C27);
+}
+
+header .search-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+header .search-content > input {
+  height: 3.625rem;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 0.2rem;
+}
+
+header .search-content > input ::-webkit-input-placeholder {
+  color: #f0f0f0;
+  font-size: 1.5em;
+}
+
+header .search-content > input :-ms-input-placeholder {
+  color: #f0f0f0;
+  font-size: 1.5em;
+}
+
+header .search-content > input ::-ms-input-placeholder {
+  color: #f0f0f0;
+  font-size: 1.5em;
+}
+
+header .search-content > input ::placeholder {
+  color: #f0f0f0;
+  font-size: 1.5em;
+}
+
+header .search-content .search-icon {
+  background-color: #f0f0f0;
+  width: 3.4375rem;
+  height: 3.625rem;
+  border-radius: 0.2rem;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=header.css.map */
