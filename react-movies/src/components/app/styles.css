@@ -75,4 +75,34 @@ header .search-content .search-icon {
   border-radius: 0.2rem;
   margin-left: 5px;
 }
+
+.results {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: white;
+  margin-left: 3rem;
+  width: 91.2%;
+  top: -5rem;
+}
+
+.results ul {
+  list-style: none;
+}
+
+.results ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 1px;
+}
+
+.results ul li > span {
+  position: relative;
+}
 /*# sourceMappingURL=styles.css.map */

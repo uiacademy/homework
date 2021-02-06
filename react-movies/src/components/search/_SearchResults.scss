@@ -1,0 +1,19 @@
+.results{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  margin-left: 3rem;
+  width: 91.2%;
+  top:-5rem;
+  ul{
+    list-style: none;
+    li{
+      display: inline-flex;
+      padding: 1px;
+      > span {
+        position: relative;
+      }
+    }
+  }
+}
