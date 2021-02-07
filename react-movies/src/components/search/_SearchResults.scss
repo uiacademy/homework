@@ -1,19 +1,36 @@
 .results{
   position: relative;
-  display: flex;
-  flex-direction: row;
-  background: white;
+  top:-4rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px black;
   margin-left: 3rem;
-  width: 91.2%;
-  top:-5rem;
-  ul{
-    list-style: none;
-    li{
-      display: inline-flex;
-      padding: 1px;
+  width: 91.5%;
+  background: white;
+  &__input{
+    width: 98.5%;
+    border: none;
+    height:3.625rem;
+    padding-left: 3rem;
+    border-bottom: 1px solid black;
+  }
+  &__list{
+    display: flex;
+    flex-direction: row;
+    ul{
+      list-style: none;
+      li{
+        display: inline-flex;
+        font-weight: bold;
+      }
       > span {
-        position: relative;
+        font-weight: 400;
+        font-size: 0.8em;
       }
     }
   }
+  &__list:hover{
+      background-color: rgba($color: #ada0a0, $alpha: 1.0);
+      cursor: pointer;
+  }
+
 }
