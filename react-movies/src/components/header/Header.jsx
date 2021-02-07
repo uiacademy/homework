@@ -11,10 +11,13 @@ export default function Header(props) {
   const [searchText, setsearchText] = useState('');
   const [data, setdata] = useState([]);
   const [inputLength, setinputLength] = useState(1);
+  const [clicked, setclicked] = useState(false);
+
 
   const inputHandler = (e) => {
     const text = e.target.value;
-    setsearchText(text)
+    setsearchText(text);
+    setclicked(false);
     setinputLength(text.length);
     if(text !== '' ){
       let url = ''.concat(BASE_URL, 'search/movie?api_key=', APIKEY, '&query=', text);
@@ -31,7 +34,7 @@ export default function Header(props) {
       })
     }
   }
-  
+
   return (
     <div>
       <header>
@@ -48,7 +51,7 @@ export default function Header(props) {
           </div>
           <Search className="search-icon"/>
         </div>
-          <SearchRez data={data} inputLength={inputLength}/>
+          <SearchRez data={data} inputLength={inputLength} selectionHandler = {searchText => setsearchText(searchText)} inputTxt={searchText} clicked={clicked} selected={clicked => setclicked(clicked)}/>
       </header>
     </div>
   )
