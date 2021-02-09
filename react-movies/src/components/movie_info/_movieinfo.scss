@@ -1,0 +1,22 @@
+
+.movie{
+  
+  position:absolute;
+  top:8rem;
+  
+  &__card{
+    text-align:center;
+  
+    p{
+      justify-content:center;
+      margin:auto;
+      width:20em;
+    }
+  
+    img{
+      width: 300px;
+      height:300px;
+    }
+  
+  }
+}

@@ -10,7 +10,7 @@
       .search-content{
         .search-wrap{
           > input{
-            width: 84%;
+            width: 83%;
           }
         }
         > .search-icon{
@@ -21,6 +21,12 @@
         }
       }
     }
+    > .loading{
+      position:absolute;
+      top:10em;
+      text-align:center;
+      width:100%;
+    }    
   }
   .results{
     top: 0.1rem;

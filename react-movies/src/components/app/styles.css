@@ -85,7 +85,7 @@ header .search-content .search-icon {
 
 .results {
   position: relative;
-  top: -4rem;
+  top: 5rem;
   border-radius: 5px;
   -webkit-box-shadow: 0 1px 5px black;
           box-shadow: 0 1px 5px black;
@@ -145,13 +145,19 @@ header .search-content .search-icon {
     padding: 0.5em;
   }
   * header .search-content .search-wrap > input, body header .search-content .search-wrap > input {
-    width: 84%;
+    width: 83%;
   }
   * header .search-content > .search-icon, body header .search-content > .search-icon {
     margin-right: 1rem;
     margin-left: 0;
     height: 1.70rem;
     width: 1.70rem;
+  }
+  * > .loading, body > .loading {
+    position: absolute;
+    top: 10em;
+    text-align: center;
+    width: 100%;
   }
   .results {
     top: 0.1rem;
@@ -185,5 +191,27 @@ header .search-content .search-icon {
     width: 96%;
     right: 3rem;
   }
+}
+
+.movie {
+  position: absolute;
+  top: 8rem;
+}
+
+.movie__card {
+  text-align: center;
+}
+
+.movie__card p {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 20em;
+}
+
+.movie__card img {
+  width: 300px;
+  height: 300px;
 }
 /*# sourceMappingURL=styles.css.map */
