@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {ReactComponent as Movie} from './icons/movie.svg'
 import {ReactComponent as Search} from './icons/search.svg'
 import SearchRez from '../search/SearchResults'
@@ -16,10 +16,9 @@ export default function Header(props) {
   const [clicked, setclicked] = useState(false);
   const [loading, setloading] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if(searchText !== '' ){
       let url = ''.concat(BASE_URL, 'search/movie?api_key=', APIKEY, '&query=',searchText);
-      console.log(url)
       fetch(url)
       .then((result) => {
         if(clicked === true){
@@ -36,11 +35,11 @@ export default function Header(props) {
         setdata(data.results);
       })
       .catch(function(error){
-        console.log('something went completely wrong')
+        console.log(error);
         return; // atvirai tai nezinau ar padetu nes error negavau ^^
       })
     }
-  },[searchText]);
+  },[searchText, clicked]);
 
   const inputHandler = (e) => {
     const text = e.target.value;
@@ -56,7 +55,7 @@ export default function Header(props) {
           <div className="search-wrap">
             <Movie className="movie-icon"/>
             <input 
-              type="text" 
+              type="search" 
               placeholder="Enter Movie Name" 
               id="search" 
               onChange={inputHandler}
@@ -67,7 +66,7 @@ export default function Header(props) {
         </div>
           <SearchRez data={data} inputLength={inputLength} selectionHandler = {searchText => setsearchText(searchText)} inputTxt={searchText} clicked={clicked} selected={clicked => setclicked(clicked)}/>
       </header>
-      {loading === true ? <img className="loading" src={Loading}/> : <MovieInfo data={data} clicked={clicked} selected_value={searchText}/> }
+      {loading === true ? <img className="loading" src={Loading} alt="loading"/> : <MovieInfo data={data} clicked={clicked} selected_value={searchText}/> }
     </div>
   )
 }

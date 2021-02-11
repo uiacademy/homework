@@ -10,9 +10,9 @@ export default function SearchResults(props) {
       <div className="results">
           {data.map((data, index) => {
             return (
-              <div className="results__list" key={index} onClick={() => props.selected(true)}>
-                <ul key={index} id={data.id} onClick={() => props.selectionHandler(data.original_title)}>
-                  <li key={index}>{data.original_title}</li><br/>
+              <div className="results__list" onClick={() => props.selectionHandler(data.title)}key={index} >
+                <ul key={index} id={data.id} onClick={() => props.selected(true)} >
+                  <li key={index}>{data.title}</li><br/>
                   <span>{data.vote_average} Rating, {data.release_date.slice(0, 4)}</span>
                 </ul>
               </div>

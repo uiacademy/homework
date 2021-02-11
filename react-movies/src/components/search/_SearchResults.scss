@@ -1,10 +1,9 @@
 .results{
   position: relative;
-  top:5rem;
+  top:0.1em;
   border-radius: 5px;
   box-shadow: 0 1px 5px black;
-  margin-left: 3rem;
-  width: 91.5%;
+  width: 83%;
   background: white;
   &__input{
     width: 98.5%;
@@ -19,7 +18,7 @@
     ul{
       list-style: none;
       li{
-        display: inline-flex;
+        display: block;
         font-weight: bold;
       }
       > span {

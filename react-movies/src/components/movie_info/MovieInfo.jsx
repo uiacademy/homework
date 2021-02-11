@@ -5,7 +5,6 @@ export default function MovieInfo(props) {
 
   const movie = props.data;
 
-  console.log(props.selected_value)
   if(props.clicked === true){
     return (
         <div className="movie">
@@ -17,7 +16,7 @@ export default function MovieInfo(props) {
                   <div className="movie__card" key={index}>
                     <h1>{movie.title}</h1>
                     <p>{movie.overview}</p>
-                    {(movie.poster_path !== null)?<img src={img_src} alt="img"/>:<img src={Noimg} alt="no-image"/>}
+                    {(movie.poster_path !== null)?<img src={img_src} alt=""/>:<img src={Noimg} alt=""/>}
                     <section>
                       <p>Popularity: <span>{movie.popularity}</span></p>
                       <p>Vote Average: <span>{movie.vote_average}</span></p>
