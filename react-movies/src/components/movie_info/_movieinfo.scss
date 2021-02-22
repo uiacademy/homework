@@ -1,0 +1,28 @@
+
+.movie{
+  position: relative;
+
+  &__card{
+    top:7rem;
+    left:50%;
+    margin-left: -9.4rem;
+    width: 18.80rem;
+    position:absolute;
+    text-align:center;
+    padding:auto;
+
+    p{
+      margin-bottom: 0.5em;
+    }
+  
+    img{
+      width: 18rem;
+      height:18rem;
+    }
+  section{
+    p{
+      margin-bottom:0.1em;
+    }
+  }
+  }
+}

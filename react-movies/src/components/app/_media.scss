@@ -1,0 +1,40 @@
+@media only screen and (min-width: 992px){
+  .movie{
+    .movie__card{
+      width: 100%;
+      justify-content:center;
+      left:0;
+      margin: 0;
+      h1{
+        margin-top: 3rem;
+      }
+      p{
+        text-align: start;
+        margin-left: 8rem;
+        float:left;
+        width: 20rem;
+        padding:2rem;
+        border-left:2px solid $color-gradient-1;
+      }
+      img{
+        width: 30%;
+        float:both;
+      }
+      section {
+        border-top:1px solid $color-gradient-1;
+        border-bottom:1px solid $color-gradient-1;
+        padding: 2rem;
+        margin-top: 3rem;
+        display: inline-block;
+        width:90%;
+        p{
+          border:none;
+          width:25%;
+          padding: 0;
+          margin:0;
+        }
+
+      }
+    }
+  } 
+}

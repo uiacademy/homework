@@ -1,0 +1,35 @@
+.results{
+  position: relative;
+  top:0.1em;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px black;
+  width: 83%;
+  background: white;
+  &__input{
+    width: 98.5%;
+    border: none;
+    height:3.625rem;
+    padding-left: 3rem;
+    border-bottom: 1px solid black;
+  }
+  &__list{
+    display: flex;
+    flex-direction: row;
+    ul{
+      list-style: none;
+      li{
+        display: block;
+        font-weight: bold;
+      }
+      > span {
+        font-weight: 400;
+        font-size: 0.8em;
+      }
+    }
+  }
+  &__list:hover{
+      background-color: rgba($color: #ada0a0, $alpha: 1.0);
+      cursor: pointer;
+  }
+
+}
